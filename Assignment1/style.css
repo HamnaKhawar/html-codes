@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 50px;
+}
+
+.container .left_side
+{
+    position: relative;
+    background: white;
+    padding: 100px;
+}
+
+.container .right_side
+{
+    position: relative;
+    background: #04669e;
+    padding: 40px;
+}
+
+.Education
+{
+    padding-top: 20px;
+    font-size: 17px;
+}
+.edu_list
+{
+    color: #04669e;
+    font-size: 20px;
+}
+
+.projects
+{
+    padding-top: 60px;
+    font-size: 17px;
+}
+.pro_list
+{
+    color: #04669e;
+    font-size: 21px;
+}
+
+.pic_text
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.pic_text .imge
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px groove #12643b;
+}
+
+.pic_text .imge img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.pic_text h1
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pic_text h2{
+    color: white;
+    text-align: center;
+}
+
+.pic_text span
+{
+    font-size: 20px;
+}
+
+
+
+.about_me 
+{
+    padding-top: 20px;
+    font-size: 23px;
+    color: white;
+}
+.heading
+{
+    font-size: 26px;
+    
+}
+
+.my_skills
+{
+    padding-top: 30px;
+   font-size: 15px;
+    color: white;
+}
+
+.listing
+{
+    font-size: 25px;
+}
