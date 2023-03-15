@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login Form</title>
+	
+	<script src="login_script.js"></script>
+	<style>
+		input {
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+		}
+
+		.error {
+			border: 1px solid red;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Login Form</h1>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username ">
+		<br>
+		<br>
+		<label for="password">Password:</label>
+		<input style="display: inline-block;" type="password" id="password" name="password">
+
+		<button class="btn-container" onclick="validateForm()"> login </button>
+</body>
+
+</html>
